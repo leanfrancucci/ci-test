@@ -1,2 +1,2 @@
-# workflow-test
-ci-test
+# CI Test
+This repository allow us to test GitHub actions
