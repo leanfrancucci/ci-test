@@ -1,0 +1,12 @@
+name: check-paths
+on:
+  push:
+    branches:
+      - master
+    paths: 
+      - 'src/*.c'
+jobs:
+  job_id:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Hello'
