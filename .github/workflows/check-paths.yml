@@ -1,8 +1,7 @@
 name: check-paths
-on: [pull_request]
-#  pull_request:
-#    types: [opened, synchronize, reopened]
-#    paths: 'src/*.c'
+on:
+  pull_request_target:
+    paths: 'src/*.c'
 
 jobs:
   job_id:
