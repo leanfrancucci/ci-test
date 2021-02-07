@@ -1,6 +1,7 @@
 name: check-paths
 on:
   pull_request:
+    branches: '*'
     paths: 'src/*.c'
 
 jobs:
