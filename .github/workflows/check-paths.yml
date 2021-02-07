@@ -1,6 +1,7 @@
 name: check-paths
 on:
-  pull_request: 
+  push:
+    paths: 'src/*.c'
 
 jobs:
   job_id:
