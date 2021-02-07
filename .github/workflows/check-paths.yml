@@ -1,6 +1,6 @@
 name: check-paths
 on:
-  push:
+  pull_request:
     paths: 'src/*.c'
 
 jobs:
