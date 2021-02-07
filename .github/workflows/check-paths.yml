@@ -2,7 +2,7 @@ name: check-paths
 on:
   pull_request:
     types: [opened, synchronize, reopened]
-    paths: 'src/*.c'
+#    paths: 'src/*.c'
 
 jobs:
   job_id:
