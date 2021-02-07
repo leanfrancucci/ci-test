@@ -2,7 +2,7 @@ name: check-paths
 on:
   push:
     branches:
-      - master
+      - main
     paths: 
       - 'src/*.c'
   pull_request:
