@@ -1,7 +1,11 @@
 name: check-paths
 on:
-  pull_request_target:
-    paths: 'src/*.c'
+  push:
+    branches: 
+      - main
+  pull_request:
+    paths:
+      - 'src/*.c'
 
 jobs:
   job_id:
