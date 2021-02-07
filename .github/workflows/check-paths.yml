@@ -1,12 +1,11 @@
 name: check-paths
 on:
-    pull_request:
-        paths: 
-#            - '.github/workflows/check-paths.yml'
-            - 'src/*.c'
     push:
         branches:
             - master
+        paths: 
+            - 'src/*.c'
+    pull_request:
         paths: 
             - 'src/*.c'
 jobs:
