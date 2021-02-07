@@ -1,11 +1,11 @@
 name: check-paths
 on:
-  push:
-    branches:
+  push: 
+    branches: 
       - main
     paths: 
       - 'src/*.c'
-  pull_request:
+  pull_request: 
     paths: 
       - 'src/*.c'
 jobs:
