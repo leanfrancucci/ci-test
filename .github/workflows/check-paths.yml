@@ -1,14 +1,12 @@
 name: check-paths
 on:
   push:
-    branches:
-#      - main
-    paths: 
-      - 'src/*.c'
+    branches: 
+      - main
   pull_request:
-    paths: 
+    paths:
       - 'src/*.c'
-     
+
 jobs:
   job_id:
     runs-on: ubuntu-latest
