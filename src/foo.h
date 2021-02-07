@@ -4,3 +4,4 @@
 /* Change 6 */
 /* Change 7 */
 /* Hello foo */
+/* Hello foo */
