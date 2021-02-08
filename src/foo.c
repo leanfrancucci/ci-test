@@ -1,3 +1,1 @@
-/* Hello foo. Again? */
-/**/
-/* **.h */
+/* push *.h */
