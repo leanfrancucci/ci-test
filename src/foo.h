@@ -6,4 +6,3 @@
 /* Hello foo */
 /* Hello foo */
 /* **.h */
-/* **.c */
